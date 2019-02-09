@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+ 
+ 
 int main() {
     int n,r,cube,sum,temp;
     scanf("%d",&n);
@@ -10,7 +11,7 @@ int main() {
         cube=r*r*r;
         sum=sum+cube;
         n=n/10;
-        
+ 
     }
     if(temp==sum)
     {
@@ -22,4 +23,3 @@ int main() {
     }
 	return 0;
 }
-
